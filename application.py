@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def home():
-    return 'AWS kawan!!'
+    return 'AWS kawan!! Banyak Buaya'
 
 if __name__ == "__main__":
     application.run()
